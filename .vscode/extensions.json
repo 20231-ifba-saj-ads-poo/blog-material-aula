@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "ms-vscode.live-server",
+        "vue.volar",
+        "funkyremi.vscode-google-translate"
+    ]
+}

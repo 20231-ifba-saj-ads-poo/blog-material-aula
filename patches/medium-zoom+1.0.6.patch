@@ -1,0 +1,26 @@
+diff --git a/node_modules/medium-zoom/dist/medium-zoom.esm.js b/node_modules/medium-zoom/dist/medium-zoom.esm.js
+index 975a617..3560372 100644
+--- a/node_modules/medium-zoom/dist/medium-zoom.esm.js
++++ b/node_modules/medium-zoom/dist/medium-zoom.esm.js
+@@ -28,7 +28,7 @@ var isNode = function isNode(selector) {
+ 
+ var isSvg = function isSvg(image) {
+   var source = image.currentSrc || image.src;
+-  return source.substr(-4).toLowerCase() === '.svg';
++  return source.toLowerCase().endsWith(".svg") || source.toLowerCase().includes("/svg/") || source.toLowerCase().includes(".svg?");
+ };
+ 
+ var getImagesFromSelector = function getImagesFromSelector(selector) {
+diff --git a/node_modules/medium-zoom/dist/medium-zoom.js b/node_modules/medium-zoom/dist/medium-zoom.js
+index 41132e8..f26c764 100644
+--- a/node_modules/medium-zoom/dist/medium-zoom.js
++++ b/node_modules/medium-zoom/dist/medium-zoom.js
+@@ -26,7 +26,7 @@
+   };
+   var isSvg = function isSvg(image) {
+     var source = image.currentSrc || image.src;
+-    return source.substr(-4).toLowerCase() === ".svg";
++    return source.toLowerCase().endsWith(".svg") || source.toLowerCase().includes("/svg/") || source.toLowerCase().includes(".svg?");
+   };
+   var getImagesFromSelector = function getImagesFromSelector(selector) {
+     try {

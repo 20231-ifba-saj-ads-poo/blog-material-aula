@@ -1,0 +1,31 @@
+{
+    "java": {
+        "prefix": "java",
+        "body": [
+            "```java",
+            "$1",
+            "```"
+        ],
+        "description": "Região de código para java"
+    },
+    "platuml": {
+        "prefix": "plantuml",
+        "body": [
+            "```plantuml",
+            "$1",
+            "```"
+        ],
+        "description": "Região de código para plantuml"
+    },
+    "figuremd": {
+        "prefix": "figuremd",
+        "body": [
+            "<figure>",
+            "$1",
+            "<figcaption>$2</figcaption>",
+            "</figure>"
+        ],
+        "description": "Região imagem com legenda"
+    }
+	
+}
