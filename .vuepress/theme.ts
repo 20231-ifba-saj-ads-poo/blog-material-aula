@@ -17,9 +17,9 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "leandro-costa/blog-material-aula",
+  repo: "ifba-saj-ads-poo-20231/blog-material-aula",
 
-  docsBranch: 'master',
+  docsBranch: 'main',
 
   // navbar
   navbar: navbar,
