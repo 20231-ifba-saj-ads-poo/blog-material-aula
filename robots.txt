@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://ifba-saj-ads-poo-20231.github.io/blog-material-aula/sitemap.xml
+Sitemap: https://ifba-saj-ads-poo-20231.github.io/blog-material-aula/blog-material-aula/sitemap.xml
