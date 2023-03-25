@@ -9,6 +9,9 @@ const __dirname = getDirname(import.meta.url)
 import theme from "./theme.js";
 
 export default defineUserConfig({
+
+  base : "blog-material-aula",
+    
   head: [
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
