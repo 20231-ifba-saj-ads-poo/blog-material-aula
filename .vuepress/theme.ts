@@ -3,6 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  
   hostname: "ifba-saj-ads-poo-20231.github.io/blog-material-aula/",
 
   author: {
