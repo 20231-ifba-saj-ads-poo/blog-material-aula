@@ -18,9 +18,9 @@ export default navbar([
     link: "/tag/",
   },
   {
-    text: "Exercícios POO",
+    text: "Exercícios",
     icon: "study",
-    link: "/tag/exercicio-poo/",
+    link: "/tag/exercicio/",
   },
   {
     text: "Timeline",
