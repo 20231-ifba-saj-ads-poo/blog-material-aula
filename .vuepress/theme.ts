@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   
-  hostname: "ifba-saj-ads-poo-20231.github.io/blog-material-aula/",
+  hostname: "20231-ifba-saj-ads-poo.github.io/blog-material-aula/",
 
   author: {
     name: "Leandro Souza",
@@ -18,7 +18,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "ifba-saj-ads-poo-20231/blog-material-aula",
+  repo: "20231-ifba-saj-ads-poo/blog-material-aula",
 
   docsBranch: 'main',
 
@@ -51,11 +51,11 @@ export default hopeTheme({
     toc: "Nesta Página",
   },
 
-  encrypt: {
-    config: {
-      "/guide/encrypt.html": ["1234"],
-    },
-  },
+  //encrypt: {
+  //  config: {
+  //    "/guide/encrypt.html": ["1234"],
+  //  },
+  //},
 
   plugins: {
 
