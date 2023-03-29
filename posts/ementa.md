@@ -57,7 +57,7 @@ index: false
 - Polimorfismo e ligação dinâmica;
 - Sobrecarga de operadores, framework collections;
 - Exceções;
-- Swing
+- JavaFX
 - Threads
 
 ## Metodologia
