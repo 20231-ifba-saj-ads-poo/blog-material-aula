@@ -2,7 +2,6 @@
 icon: edit
 date: 2023-03-31
 tag:
-  - paradigmas
   - java
   - paradigmas
 category:
@@ -259,9 +258,38 @@ Esse código executável (binário) resultante será executado pelo sistema oper
 
 <figure>
 
-<!--exe.puml-->
+```plantuml
+@startuml
 
-<img src="https://www.planttext.com/api/plantuml/svg/VP3DIWCn58NtUOfq45pDn9dkH4gXk11SIAixDqdcPYQOFvACzRry15_Ccqx15caXaEISB_VUd7NAFER96a8MFIZjWEvUja-lZxktxJCTSmxfdh78zysWypY9AK6KtcLmkP7Uic2uAy_hb7kZ1Hkq4JpYulMV5QBEaDXdszonuuKij9Dcwc6AvgGZirf6dxpAzLwxtkzJ4yfm5sYS1rjSHNW81cQ2aFIXNS3PBBNUUJb6Ru4gRX8GWZ5enMMcggKyqMhpyzthmLDLValV7LYwkQrEiEuoTiOjht084kTxe1LyGLL0qHu5eTqiT4S1Vp8BIq8YoCpTO51-kFcNsUh0OSLpRavhDh7wkNd8QVRmI5HRrokSHNLbxuXQbXqxYsAKqkBWO1bHhF9c3Qx7d7y1" />
+!define SPRITESURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.0/sprites
+!includeurl SPRITESURL/microsoft-windows.puml
+!includeurl SPRITESURL/ubuntu.puml
+!includeurl SPRITESURL/apple.puml
+
+
+skinparam monochrome false
+
+artifact f1 as "Código fonte \nem C'"
+artifact f2 as "Código fonte \nem C''"
+artifact f3 as "Código fonte \nem C'''"
+
+node "exe" as b1
+node "bin" as b2
+node "app" as b3
+
+rectangle "<$microsoft-windows>" as exe
+rectangle "<$ubuntu>" as bin
+rectangle "<$apple>" as app
+f1-->b1
+f2-->b2
+f3-->b3
+
+b1-->exe
+b2-->bin
+b3-->app
+@enduml
+```
+
 
 <figcaption> Aplicação associada ao Sistema Operacional.</figcaption>
 </figure>
@@ -276,9 +304,35 @@ Já o Java utiliza do conceito de máquina virtual, onde existe, entre o sistema
 
 <figure>
 
-<!-- rodando.puml -->
+```plantuml
+@startuml
 
-![rodando](https://www.planttext.com/api/plantuml/svg/VP3FIWCn4CRlUOhfudKtxbLaAOe7YuAqwgcNR3BPfkOVIRRLv_8HV36Jhg1LB2HamlURcOzl7XCBQJIQa9b0gIp2wc5v-tYpUbhUmIOb7oye3MpV32fjndwC6BYp2Mrgk3FKQsPBUnsJqAgdWz8z2_cm-bloGIMCTDSsv_JhGsRASZqA78F-iP4QnOEBJgPwhwnm-zZuOkuVEll9AquYp7kD9uajsx4982I-AEkpUGF6MSStmHa4oNH4Gd9EIZAUGBR08bJN7-z23GvaYGFM5WqiygYA4Ei4GdNrbf3dgYfqtn8Ia2Tc1vsroxEojLjR05Wytn-GxSwGNz2VDBe3YQzup4qvJ6AlxB5uI63ISabaMtVPJP-ViZ7VkkxAnAagxLDLu3bQKPBv1000)
+!define SPRITESURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.0/sprites
+!includeurl SPRITESURL/microsoft-windows.puml
+!includeurl SPRITESURL/ubuntu.puml
+!includeurl SPRITESURL/apple.puml
+!includeurl SPRITESURL/java.puml
+
+
+skinparam monochrome false
+
+artifact f1 as "Código fonte \nem Java"
+
+node "Bytecode" as b1
+
+rectangle "<$java>\n   JVM" as jvm
+
+
+rectangle "<$microsoft-windows>" as exe
+rectangle "<$ubuntu>" as bin
+rectangle "<$apple>" as app
+f1->b1
+b1->jvm
+jvm-->exe
+jvm-->bin
+jvm-->app
+@enduml
+```
 
 <figcaption> Aplicação rodando em JVM.</figcaption>
 </figure>
