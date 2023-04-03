@@ -1055,8 +1055,6 @@ JOptionPane.showMessageDialog(null,"Seu nome é "+nome);
 nome = JOptionPane.showInputDialog(null, "Por favor, digite o seu nome", "Atenção", JOptionPane.INFORMATION_MESSAGE);
 ```
 
-#### [Exercício](Exercicios/JOption)
-
 
 ## Conversões em Java
 
@@ -1251,9 +1249,9 @@ m1 -[hidden]-> m
 <figcaption>Representação de uma pilha de execução.</figcaption>
 </figure>
 
- [Exercícios para praticar](Exercicios/Caelum).
+## Exercícios 
 
-
+https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
 
 ## Referências
 
