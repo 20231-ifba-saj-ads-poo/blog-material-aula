@@ -1,17 +1,17 @@
 {
-  "name": "Blog Aulas POO20231",
-  "short_name": "BlogAulasPOO20231",
+  "name": "Blog Aulas 20231 POO",
+  "short_name": "BlogAulas20231POO",
   "description": "material de aula em PWA",
   "lang": "pt-BR",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/img/icon/chrome192.png",
+      "src": "/blog-material-aula/img/icon/chrome192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/icon/chrome512.png",
+      "src": "/blog-material-aula/img/icon/chrome512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
