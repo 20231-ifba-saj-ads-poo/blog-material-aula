@@ -20,7 +20,7 @@ export default navbar([
   {
     text: "Exercícios",
     icon: "study",
-    link: "/tag/exercicio/",
+    link: "/category/exercicio/",
   },
   {
     text: "Timeline",

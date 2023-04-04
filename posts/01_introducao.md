@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-03-31
+date: 2023-03-31  17:40:00 -0300
 tag:
   - java
   - paradigmas
