@@ -626,9 +626,12 @@ Porém, o código do for indica claramente que a variável `i` serve, em especia
 
 Apesar de termos condições booleanas nos nossos laços, em algum momento, podemos decidir parar o loop por algum motivo especial sem que o resto do laço seja executado.
 ```java
+int x = 100;
+int y = 200;    
 for (int i = x; i < y; i++) {
     if (i % 19 == 0) {
-        System.out.println("Achei um número divisível por 19 entre x e y");
+        System.out.println("Achei um número divisível por 19 entre x("+x+") e y("+y+")");
+        System.out.println(i);
         break;
     }
 }
