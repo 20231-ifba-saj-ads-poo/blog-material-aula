@@ -80,7 +80,3 @@ O processo de avaliação dar-se-á ao longo do desenvolvimento da disciplina. C
 - SCHILDT, H.; SKRIEN, D. **Programação com Java: Uma Introdução Abrangente.** McGraw-Hill, 2013.
 - SIERRA, K; BATES, B. **Use a cabeça! Java.** Tradução da Segunda Edição. Alta Books, 2007.
 - SILVEIRA, G.; TURINI, R. **Java 8 Prático: Lambdas, Streams e os novos recursos da linguagem.** Casa do Código, 2014.
-
-[Material Complementar](https://github.com/20231-ifba-saj-ads-poo/material-complementar/blob/main/README.md)
-
-[Repl IT IDE Online](https://replit.com/languages/java10)
