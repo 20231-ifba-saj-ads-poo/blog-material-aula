@@ -1252,10 +1252,6 @@ m1 -[hidden]-> m
 <figcaption>Representação de uma pilha de execução.</figcaption>
 </figure>
 
-## Exercícios 
-
-https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
-
 ## Referências
 
 @include(../bib/bib.md)
