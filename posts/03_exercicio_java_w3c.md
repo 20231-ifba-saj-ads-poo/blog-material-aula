@@ -5,7 +5,7 @@ tag:
   - java
 category:
   - exercicio
-order: 3
+order: 4
 ---
 
 # Exercício Java no W3C
