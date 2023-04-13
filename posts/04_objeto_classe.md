@@ -356,6 +356,34 @@ rectangle "Memoria"{
 Como seria a transferência de valores entre duas contas?
 :::
 
+<figure>
+
+```plantuml
+@startuml
+skinparam style strictuml
+autoactivate on
+
+participant Programa
+participant "c1:Conta" as c1
+participant "c2:Conta" as c2
+
+create c1
+Programa -> c1 :new
+create c2
+Programa -> c2 :new
+
+Programa -> c1 :transferir(c2,200)
+c1 -> c1 : saque(200)
+return sucesso
+c1 -> c2 : deposita(200)
+return sucesso
+return sucesso
+@enduml
+```
+
+<figcaption>Diagram de sequencia para a transferência entre contas</figcaption>
+</figure>
+
 ### Comparando
 
 ```java
