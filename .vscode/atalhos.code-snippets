@@ -26,6 +26,47 @@
             "</figure>"
         ],
         "description": "Região imagem com legenda"
-    }
+    },
 	
+    "tip": {
+        "prefix": "tip",
+        "body": [
+            "::: tip $1",
+            "$2",
+            ":::"
+        ],
+        "description": "Bloco de destaque tip"
+    },
+	
+    "warning": {
+        "prefix": "warning",
+        "body": [
+            "::: warning $1",
+            "$2",
+            ":::"
+        ],
+        "description": "Bloco de destaque warning"
+    },
+	
+    "danger": {
+        "prefix": "danger",
+        "body": [
+            "::: danger $1",
+            "$2",
+            ":::"
+        ],
+        "description": "Bloco de destaque danger"
+    },
+	
+    "details": {
+        "prefix": "details",
+        "body": [
+            "::: details $1",
+            "$2",
+            ":::"
+        ],
+        "description": "Bloco de destaque details"
+    }
+
+
 }

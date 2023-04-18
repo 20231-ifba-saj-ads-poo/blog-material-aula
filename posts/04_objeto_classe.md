@@ -9,7 +9,9 @@ category:
   - aula
 order: 5
 ---
+
 # Objeto
+[^caelumoo]
 
 - Um objeto é cada uma das entidades identificáveis num dado domínio de aplicação
 - Em um sistema Bancário teríamos objetos do tipo: Cliente, Conta, Conta Corrente, Dependente, etc.
@@ -67,7 +69,7 @@ Objeto do tipo **Conta**
 
 
 # Classe
-
+[^caelumoo]
 ## Origem do termo
 - A palavra classe vem da taxonomia da biologia. 
   - Todos os seres vivos de uma mesma classe biológica têm uma série de atributos e comportamentos em comum, mas não são iguais, podem variar nos valores desses atributos e como realizam esses comportamentos.
@@ -433,3 +435,8 @@ class Conta {
   
 }
 ```
+
+
+## Referências
+
+@include(../bib/bib.md)
