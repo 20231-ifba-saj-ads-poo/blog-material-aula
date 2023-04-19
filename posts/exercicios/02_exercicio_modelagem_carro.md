@@ -5,8 +5,7 @@ tag:
   - java
 category:
   - exercicio
-sidebar: false
-order: 6
+next: 03_exercicio_modelagem_tv
 ---
 
 # Exercício: Modelagem Carro
@@ -33,4 +32,4 @@ order: 6
 
 link para entrega da tarefa: https://classroom.github.com/a/Pc1f8bIa
 
-@include(../bib/bib.md)
+@include(../../bib/bib.md)

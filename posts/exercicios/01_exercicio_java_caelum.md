@@ -5,8 +5,7 @@ tag:
   - java
 category:
   - exercicio
-sidebar: false
-order: 5
+prev: 00_exercicio_java_w3c
 ---
 
 # Exercício: Fixação de sintaxe 
@@ -67,4 +66,4 @@ n n*2 n*3 .... n*n
 
 link para entrega da tarefa: https://classroom.github.com/a/4DTR0pPe
 
-@include(../bib/bib.md)
+@include(../../bib/bib.md)

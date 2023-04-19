@@ -5,7 +5,7 @@ tag:
   - java
 category:
   - exercicio
-order: 4
+next: 01_exercicio_java_caelum
 ---
 
 # Exercício Java no W3C

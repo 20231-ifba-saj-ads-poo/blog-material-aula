@@ -5,8 +5,8 @@ tag:
   - java
 category:
   - exercicio
-sidebar: false
-order: 7
+prev: 02_exercicio_modelagem_carro
+next: 04_exercicio_modelagem_dvd
 ---
 
 # Exercício: Modelagem TV
@@ -32,4 +32,4 @@ order: 7
 
 link para entrega da tarefa: https://classroom.github.com/a/Ej9ZNKCg
 
-@include(../bib/bib.md)
+@include(../../bib/bib.md)

@@ -812,6 +812,20 @@ Level level = Level.HIGH;
 
 Observe como a variável level é do tipo Level que é o tipo enum Java definido no exemplo acima. A variável level pode tomar uma das Level constantes enum como valor ( HIGH, MEDIUM ou LOW). Nesse caso, level é definido como HIGH.
 
+```java
+public enum OpcoesMenu {
+    SALVAR(1), IMPRMIR(2), ABRIR(3), VISUALIZAR(4), FECHAR(5);
+
+    private final int valor;
+        OpcoesMenu(int valorOpcao){
+        valor = valorOpcao;
+    }
+    public int getValor(){
+        return valor;
+    }
+}
+```
+
 https://www.devmedia.com.br/tipos-enum-no-java/25729
 
 ## Pilha de Execução
@@ -868,6 +882,12 @@ m1 -[hidden]-> m
 
 <figcaption>Representação de uma pilha de execução.</figcaption>
 </figure>
+
+## Exercícios
+
+- [Exercício W3C](exercicios/00_exercicio_java_w3c.md)
+- [Exercício sintaxe ](exercicios/01_exercicio_java_caelum.md)
+
 
 ## Referências
 
