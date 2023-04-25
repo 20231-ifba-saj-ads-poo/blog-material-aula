@@ -31,4 +31,14 @@ prev: 03_exercicio_modelagem_tv
 
 link para entrega da tarefa: https://classroom.github.com/a/0PQdzwO-
 
+::: details 
+
+@[code](../code/modelagemDVD/DVD.java)
+
+@[code](../code/modelagemDVD/Filme.java)
+
+@[code](../code/modelagemDVD/Mesa.java)
+
+:::
+
 @include(../../bib/bib.md)

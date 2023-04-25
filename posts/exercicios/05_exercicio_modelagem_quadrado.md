@@ -7,7 +7,7 @@ category:
   - exercicio
 ---
 
-# Exercício: 
+# Exercício: Modelagem Quadrado
 
 1. Suponha que você possua um programa de edição de imagens que manipula objetos geométricos. Você
 deseja definir uma classe Quadrado contendo como atributos um inteiro cor e um String tamanho,
