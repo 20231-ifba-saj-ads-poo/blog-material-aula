@@ -30,9 +30,9 @@ class Biblioteca{
     - Estante estante
 }
 class Livro{
-    Autor autor
-    Strin titulo
-    Strin ISBN
+    - Autor autor
+    - String titulo
+    - String ISBN
 }
 class Professor{
     - String nome
@@ -50,7 +50,13 @@ class Estante{
 class Mochila{
     - int tamanho
     - List<Livro> livros
-    boolean iCompleta()
+    + boolean iCompleta()
+}
+
+class Autor {
+    - String nome
+    - String email
+    - String CPF
 }
 @enduml
 
