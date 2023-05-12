@@ -22,16 +22,16 @@ Escreve também o código de uma classe principal que irá fazer uso das classes
 
 ::: details 
 
-@include(../code/freetime/App.java)
+@[code](../code/freetime/App.java)
 
-@include(../code/freetime/Cliente.java)
+@[code](../code/freetime/Cliente.java)
 
-@include(../code/freetime/Item.java)
+@[code](../code/freetime/Item.java)
 
-@include(../code/freetime/Lanchonete.java)
+@[code](../code/freetime/Lanchonete.java)
 
-@include(../code/freetime/Pedido.java)
+@[code](../code/freetime/Pedido.java)
 
-@include(../code/freetime/QRCode.java)
+@[code](../code/freetime/QRCode.java)
 
 :::
