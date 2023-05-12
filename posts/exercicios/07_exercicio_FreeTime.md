@@ -18,3 +18,20 @@ Escreve também o código de uma classe principal que irá fazer uso das classes
 # Link
 
 [Entrega](https://classroom.github.com/a/bvybI78M)
+
+
+::: details 
+
+@include(../code/freetime/App.java)
+
+@include(../code/freetime/Cliente.java)
+
+@include(../code/freetime/Item.java)
+
+@include(../code/freetime/Lanchonete.java)
+
+@include(../code/freetime/Pedido.java)
+
+@include(../code/freetime/QRCode.java)
+
+:::
