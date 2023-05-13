@@ -21,8 +21,7 @@ public class App {
         lanchonete.addItem(item);
         ArrayList<Item> itens = lanchonete.getItens();
         Cliente cliente = new Cliente("Leandro");
-        int codigoPedido = 1;
-        Pedido pedido = new Pedido(codigoPedido,cliente);
+        Pedido pedido = lanchonete.criarNovoPedido(cliente);
         pedido.addItem(itens.get(0));
         pedido.realizarPagamento();
         lanchonete.retirarLanche(pedido.getComprovante());
