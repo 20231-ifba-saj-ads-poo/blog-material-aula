@@ -1,0 +1,70 @@
+Claro! Aqui está uma lista de 20 perguntas sobre orientação a objetos, abordando os assuntos de encapsulamento, construtor, métodos de acesso, sobrecarga e visibilidade:
+
+Encapsulamento:
+1. O que é encapsulamento em programação orientada a objetos?
+2. Quais são os benefícios do encapsulamento?
+3. Como o encapsulamento é implementado em uma classe?
+4. O que são os modificadores de acesso e como eles se relacionam com o encapsulamento?
+5. Quais são as diferenças entre os níveis de acesso private, protected e public?
+
+Construtor:
+6. O que é um construtor em uma classe?
+7. Quais são as características de um construtor?
+8. Qual é a finalidade de um construtor?
+9. O que é um construtor padrão e quando ele é usado?
+10. Como você pode sobrecarregar um construtor em uma classe?
+
+Métodos de acesso:
+11. O que são métodos de acesso e qual é o seu propósito?
+12. Quais são os dois tipos comuns de métodos de acesso?
+13. Como você define um método de acesso em uma classe?
+14. Qual é a diferença entre um método de acesso "get" e um método de acesso "set"?
+15. Por que é importante ter métodos de acesso em vez de acessar diretamente os atributos de uma classe?
+
+Sobrecarga:
+16. O que é sobrecarga de métodos em programação orientada a objetos?
+17. Como a sobrecarga de métodos é implementada em uma classe?
+18. Quais são as restrições ao sobrecarregar métodos?
+19. Como o compilador decide qual método sobrecarregado chamar?
+20. Por que a sobrecarga de métodos é útil na programação orientada a objetos?
+
+Visibilidade:
+21. O que é visibilidade em programação orientada a objetos?
+22. Quais são os modificadores de acesso disponíveis em muitas linguagens de programação?
+23. Qual é a visibilidade padrão se nenhum modificador de acesso for especificado?
+24. Como você controla a visibilidade dos membros de uma classe?
+25. Quais são as vantagens de definir membros como privados ou protegidos em vez de públicos?
+
+Essas perguntas devem ajudar a abordar os principais conceitos relacionados a encapsulamento, construtor, métodos de acesso, sobrecarga e visibilidade na programação orientada a objetos.
+
+Certamente! Aqui está uma lista de 20 perguntas sobre orientação a objetos, abordando os assuntos de agregação e composição, classe e objeto, referências e equals:
+
+Agregação e Composição:
+1. O que é agregação na programação orientada a objetos?
+2. O que é composição na programação orientada a objetos?
+3. Quais são as diferenças entre agregação e composição?
+4. Como você implementa a agregação entre classes?
+5. Como você implementa a composição entre classes?
+
+Classe e Objeto:
+6. Qual é a diferença entre uma classe e um objeto?
+7. O que é uma classe em programação orientada a objetos?
+8. O que é um objeto em programação orientada a objetos?
+9. Como você define uma classe em um programa?
+10. Como você cria e utiliza objetos a partir de uma classe?
+
+Referências:
+11. O que é uma referência em programação orientada a objetos?
+12. Como as referências são usadas para se referir a objetos?
+13. Qual é a diferença entre uma referência e o objeto em si?
+14. Como você atribui uma referência a um objeto em um programa?
+15. O que acontece quando duas referências se referem ao mesmo objeto?
+
+Equals:
+16. O que é o método equals em programação orientada a objetos?
+17. Qual é o propósito do método equals?
+18. Como você implementa o método equals em uma classe?
+19. Quais são as boas práticas ao implementar o método equals?
+20. Como o método equals é usado para comparar objetos em um programa?
+
+Essas perguntas devem abordar os conceitos principais relacionados à agregação e composição, classe e objeto, referências e o método equals na programação orientada a objetos.
