@@ -1,12 +1,12 @@
 import { defineUserConfig } from "vuepress";
-import { pwaPlugin } from "vuepress-plugin-pwa2";
+import { searchPlugin } from "@vuepress/plugin-search";
 import umlPlugin from 'markdown-it-plantuml';
 
 import theme from "./theme.js";
 
 export default defineUserConfig({
 
-  base : "blog-material-aula",
+  base : "/blog-material-aula/",
     
   head: [
     ['link', { rel: 'manifest', href: '/blog-material-aula/manifest.webmanifest' }],
@@ -20,15 +20,12 @@ export default defineUserConfig({
     md.use(umlPlugin, {openMarker: '```plantuml', closeMarker: '```'})
   },
 
-
   theme,
-
-  plugins: [
-    pwaPlugin({
-      // your options
-    }),
-  ],
 
   shouldPrefetch: false,
 
+  plugins: [searchPlugin({}),],
+
 });
+
+

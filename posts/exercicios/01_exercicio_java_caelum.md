@@ -66,4 +66,4 @@ n n*2 n*3 .... n*n
 
 link para entrega da tarefa: https://classroom.github.com/a/4DTR0pPe
 
-@include(../../bib/bib.md)
+<!-- @include: ../../bib/bib.md -->

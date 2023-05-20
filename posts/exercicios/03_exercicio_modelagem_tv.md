@@ -32,4 +32,4 @@ next: 04_exercicio_modelagem_dvd
 
 link para entrega da tarefa: https://classroom.github.com/a/Ej9ZNKCg
 
-@include(../../bib/bib.md)
+<!-- @include: ../../bib/bib.md -->

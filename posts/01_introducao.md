@@ -394,4 +394,4 @@ Tanto o JRE e o JDK podem ser baixados do site [http://www.oracle.com/technetwor
 
 ## Referências
 
-@include(../bib/bib.md)
+<!-- @include: ../bib/bib.md -->

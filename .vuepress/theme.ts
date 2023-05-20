@@ -53,15 +53,23 @@ export default hopeTheme({
 
   plugins: {
 
+    pwa:true,
+
     blog: {
       // only files under posts are articles
       filter: ({ filePathRelative }) =>
         filePathRelative ? filePathRelative.startsWith("posts/") : false,
+
+      excerptLength: 1,
     },
 
 
     mdEnhance: {
-      enableAll: true,
+      include: true,
+      footnote: true,
+      container: true,
+      tabs: true,
+      mathjax: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },

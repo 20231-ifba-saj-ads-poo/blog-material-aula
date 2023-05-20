@@ -891,4 +891,4 @@ m1 -[hidden]-> m
 
 ## Referências
 
-@include(../bib/bib.md)
+<!-- @include: ../bib/bib.md -->

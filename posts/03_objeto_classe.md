@@ -483,4 +483,4 @@ System.out.println(person);//Escreve Pessoa{nome='Alice', idade=30} no console
 
 ## Referências
 
-@include(../bib/bib.md)
+<!-- @include: ../bib/bib.md -->

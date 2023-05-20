@@ -92,4 +92,4 @@ aulas.forEach(aula -> {
 
 ## Referências
 
-@include(../bib/bib.md)
+<!-- @include: ../bib/bib.md -->
