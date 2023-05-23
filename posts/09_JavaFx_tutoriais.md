@@ -37,7 +37,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 Instalar o Scene Builder
 
-https://gluonhq.com/products/scene-builder/
+[https://gluonhq.com/products/scene-builder/](https://gluonhq.com/products/scene-builder/)
 
 
 ## SceneBuilder extension for Visual Studio Code
