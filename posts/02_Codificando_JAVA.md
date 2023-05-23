@@ -888,6 +888,10 @@ m1 -[hidden]-> m
 - [Exercício W3C](exercicios/00_exercicio_java_w3c.md)
 - [Exercício sintaxe ](exercicios/01_exercicio_java_caelum.md)
 
+## PodCast
+
+- [Mitos e verdades sobre Java](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NzE0YzBjMC9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvODk5Njg4MDk3?ep=14)
+
 
 ## Referências
 
