@@ -84,3 +84,7 @@ Clique com o lado direita do mouse e escolha a opção `Open in Scene Builder`
 
 - [JavaFx UI - Mahmoud Hamwi](https://www.youtube.com/playlist?list=PLJUowayj1-sjDKChv5Rg0OevX-BJWGGiR)
 - [JavaFX - Channel Ai](https://www.youtube.com/playlist?list=PLargMG6XA8zBKfhSXB9O_Wvy2nFURCujv)
+
+## Repositório para inicar
+
+- [Step 1](https://github.com/20231-ifba-saj-ads-poo/javafx-template-step1)
