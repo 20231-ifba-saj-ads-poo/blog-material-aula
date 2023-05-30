@@ -1,2 +1,6 @@
 $content-width: 100%;
-$theme-color: #111111;
+$theme-color: (
+  light: #111,
+  dark: #FFF,
+);
+
