@@ -4,7 +4,7 @@ date: 2023-06-02 18:40:00.00 -3
 tag:
   - heranca
 category:
-  - POO
+  - aula
 order: 11
 ---
 # Herança
