@@ -5,6 +5,7 @@ tag:
   - java
 category:
   - exercicio
+  - entrega
 ---
 
 # Exercício: Converter para Extenso

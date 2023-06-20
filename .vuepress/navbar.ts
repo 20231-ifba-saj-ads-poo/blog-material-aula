@@ -23,6 +23,11 @@ export default navbar([
     link: "/category/exercicio/",
   },
   {
+    text: "Para Entrega",
+    icon: "study",
+    link: "/category/entrega/",
+  },
+  {
     text: "Timeline",
     icon: "time",
     link: "/timeline/",

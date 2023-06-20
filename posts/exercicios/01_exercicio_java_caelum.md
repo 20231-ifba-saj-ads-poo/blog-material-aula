@@ -5,6 +5,7 @@ tag:
   - java
 category:
   - exercicio
+  - entrega
 prev: 00_exercicio_java_w3c
 ---
 

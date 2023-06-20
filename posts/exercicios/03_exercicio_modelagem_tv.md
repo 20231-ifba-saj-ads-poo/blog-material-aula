@@ -5,6 +5,7 @@ tag:
   - java
 category:
   - exercicio
+  - entrega
 prev: 02_exercicio_modelagem_carro
 next: 04_exercicio_modelagem_dvd
 ---

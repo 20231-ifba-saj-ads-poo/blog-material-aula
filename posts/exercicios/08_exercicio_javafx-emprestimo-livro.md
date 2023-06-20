@@ -5,6 +5,7 @@ tag:
   - javafx
 category:
   - exercicio
+  - entrega
 ---
 
 # Exercício: Emprestimo Livro em JavaFX

@@ -5,6 +5,7 @@ tag:
   - java
 category:
   - exercicio
+  - entrega
 next: 03_exercicio_modelagem_tv
 ---
 
