@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-06-16 18:40:00.00 -3
+date: 2023-06-16 19:40:00.00 -3
 tag:
   - polimorfismo
 category:

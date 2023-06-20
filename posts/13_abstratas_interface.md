@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-06-16 19:20:00.00 -3
+date: 2023-06-20 19:20:00.00 -3
 tag:
   - classes-abstratas
   - interface
