@@ -80,6 +80,18 @@ Animal <|-- Passaro
     - Todas as subclasses implementam o método mover
 - O programa envia a mensagem "mover" para os 3 objetos
 
+<code-group>
+<code-block title="Foreach">
+
+```java
+List<Animal> animais = List.of(new Peixe(), new Anfibio(), new Passaro());
+for(Animal animal : animais ) {
+    animal.mover();//como será o movimento desse animal?
+}
+```
+</code-block>
+<code-block title="for">
+
 ```java
 //...
 Animal animal[] = new Animal[3];
@@ -89,6 +101,11 @@ for(int i = 0; i < 3 ; i++){
 }
 //...
 ```
+
+</code-block>
+</code-group>
+
+
 
 - Cada animal responde ao método mover de uma maneira diferente
     - O peixe pode nadar 2 metros
@@ -189,7 +206,7 @@ System.out.println(controle.getTotalDeBonificacoes());
 ```
 
 
-Perceba que conseguimos passar um `Gerente` para um método que recebe um `Funcionario` como argumento. Pense como numa porta na agência bancária com o seguinte aviso: "“Permitida a entrada apenas de Funcionários”". Um gerente pode passar nessa porta? Sim, pois `Gerente` **é um** `Funcionario`.
+Perceba que conseguimos passar um `Gerente` para um método que recebe um `Funcionario` como argumento. Pense como numa porta na agência bancária com o seguinte aviso: "Permitida a entrada apenas de Funcionários". Um gerente pode passar nessa porta? Sim, pois `Gerente` **é um** `Funcionario`.
 
 Qual será o valor resultante? Não importa que dentro do método registra do  `ControleDeBonificacoes` receba `Funcionario`. Quando ele receber um objeto que realmente é um `Gerente`, o seu método reescrito será invocado. Reafirmando: não importa como nos referenciamos a um objeto, o método que será invocado é sempre o que é dele.
 
