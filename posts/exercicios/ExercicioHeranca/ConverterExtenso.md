@@ -7,7 +7,7 @@ category:
   - exercicio
 ---
 
-#Exercício: Converter para Extenso
+# Exercício: Converter para Extenso
 
 Analisando o processo de conversão de um numero inteiro para o seu correspondente texto por extenso percebemos que existe muita coisa em comum quando são adicionados novos dígitos.
 
@@ -43,6 +43,6 @@ Analisando o processo de conversão de um numero inteiro para o seu corresponden
     }
 
     ```
-# Link
+## Link
 
 [Entrega](https://classroom.github.com/a/rZNkgSnQ)
