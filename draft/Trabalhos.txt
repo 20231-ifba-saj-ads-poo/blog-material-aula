@@ -9,3 +9,4 @@
     - quebra de linha para novos itens (ctrl-v cria vários itens)
     - uuid, novos itens online e offline 
     - grup (supermercado, feira, farmácia...)
+    - upload de imagens 
