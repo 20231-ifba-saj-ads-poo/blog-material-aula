@@ -3,3 +3,5 @@
 - Freetime (lanchonete)
 - Reserva e venda de passagens aereas
 - Emprestimo livro
+- repertório para apresentações músicas (pedir música, playlist)
+- lista de compras compartilhada com acompanhamento e grupos
