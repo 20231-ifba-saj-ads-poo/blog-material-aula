@@ -5,8 +5,8 @@ tag:
   - heranca
 category:
   - exercicio
+  - entrega
 sidebar: false
-
 ---
 
 # Exercício de Herança 4 (Sistema banco)
@@ -94,3 +94,7 @@ public class TestaAtualizadorDeContas {
     }
 }
 ```
+
+## Link para clonar remoritório
+
+[classroom](https://classroom.github.com/a/mKslpJWb)
