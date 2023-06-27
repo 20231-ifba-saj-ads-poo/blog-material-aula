@@ -97,4 +97,4 @@ public class TestaAtualizadorDeContas {
 
 ## Link para clonar remoritório
 
-[https://github.com/20231-ifba-saj-ads-poo/exercicio_sistema_banco](https://github.com/20231-ifba-saj-ads-poo/exercicio_sistema_banco)
+[classroom](https://classroom.github.com/a/mKslpJWb)
