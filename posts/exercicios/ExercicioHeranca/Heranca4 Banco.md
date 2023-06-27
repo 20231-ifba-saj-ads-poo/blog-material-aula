@@ -5,8 +5,8 @@ tag:
   - heranca
 category:
   - exercicio
+  - entrega
 sidebar: false
-
 ---
 
 # Exercício de Herança 4 (Sistema banco)
