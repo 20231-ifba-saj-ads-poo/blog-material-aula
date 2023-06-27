@@ -16,7 +16,7 @@ order: 13
 - Fornecem padrões de comportamento que serão implementados nas suas subclasses
 - Podem ter métodos com implementação definida
 - Não pode ser instanciada diretamente (`new`).
-- Uma classe abstrata possui características que devem ser implementadas por classes filhas
+- Uma classe abstrata possui características que devem/podem ser implementadas por classes filhas
 - Os métodos abstratos são obrigatoriamente implementados pelas classes filhas concretas, quando a mesma herda de uma classe abstrata. 
 
 ```java
