@@ -507,14 +507,14 @@ interface Usuario
 Agora, conseguimos definir o que o método autentica() deve receber como parâmetro para trabalhar tanto com gerentes quanto com empresas. Ele deve receber um parâmetro do tipo Usuario.
 
 
-@[code](./code/Usuario.java)
-@[code](./code/Cliente.java)
-@[code](./code/PessoaFisica.java)
-@[code](./code/PessoaJuridica.java)
-@[code](./code/Funcionario.java)
-@[code](./code/Gerente.java)
-@[code](./code/Seguranca.java)
-@[code](./code/AutenticadorDeUsuario.java)
+@[code](./code/abstract/Usuario.java)
+@[code](./code/abstract/Cliente.java)
+@[code](./code/abstract/PessoaFisica.java)
+@[code](./code/abstract/PessoaJuridica.java)
+@[code](./code/abstract/Funcionario.java)
+@[code](./code/abstract/Gerente.java)
+@[code](./code/abstract/Seguranca.java)
+@[code](./code/abstract/AutenticadorDeUsuario.java)
 
 
 ##### Mais sobre herança e interface
