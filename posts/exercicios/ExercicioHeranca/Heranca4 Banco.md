@@ -95,6 +95,6 @@ public class TestaAtualizadorDeContas {
 }
 ```
 
-## Link para clonar remoritório
+## Link para clonar repositório 
 
 [classroom](https://classroom.github.com/a/mKslpJWb)
