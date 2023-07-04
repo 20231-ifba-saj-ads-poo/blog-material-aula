@@ -13,7 +13,7 @@ Considerando o que foi visto em [Pilha de execução](/posts/02_Codificando_JAVA
 
 Quando um erro (exceção) ocorre, o JVM entra em estado de alerta e procura dento do metodo se existe algum tratamento especial para o problema.
 
-@[code](./code/TesteErro.java)
+@[code](./code/exception/TesteErro.java)
 
 ```shell
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 10
