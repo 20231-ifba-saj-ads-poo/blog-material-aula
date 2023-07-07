@@ -287,7 +287,7 @@ Os únicos momentos em que o `finally` não será chamado são:
 
 ## Exercício
 
-[Exercício](./Exercicios/ExercicioException/Exception1.md)
+[Exercício](./exercicios/ExercicioException/Exception1.md)
 
 
 ## Links w3schools
