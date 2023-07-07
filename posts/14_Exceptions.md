@@ -9,7 +9,7 @@ order: 18
 ---
 # Exceptions
 
-Considerando o que foi visto em [Pilha de execução](/posts/02_Codificando_JAVA.html#pilha-de-execucao).
+Considerando o que foi visto em [Pilha de execução](./02_Codificando_JAVA.md#pilha-de-execucao).
 
 Quando um erro (exceção) ocorre, o JVM entra em estado de alerta e procura dento do metodo se existe algum tratamento especial para o problema.
 

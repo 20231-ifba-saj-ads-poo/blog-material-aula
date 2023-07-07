@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nodejs
+    volumes:
+      - .:/home/node/app
+      - node_modules:/home/node/app/node_modules
+    networks:
+      - app-network
+    tty: true
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  node_modules:  
