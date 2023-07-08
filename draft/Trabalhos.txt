@@ -10,3 +10,4 @@
     - uuid, novos itens online e offline 
     - grup (supermercado, feira, farmácia...)
     - upload de imagens 
+ - sistema de cálculo de preço único para verificar qual produto está mais em conta (gramas, litros, unidades...)
