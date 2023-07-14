@@ -5,6 +5,7 @@ tag:
   - heranca
 category:
   - exercicio
+  - entrega
 sidebar: false
 ---
 
@@ -17,7 +18,6 @@ adapitado de [^Takenami]
 1. Criar a classe `Conta` com o atributo saldo do tipo `double` que inicia com 0. Esta classe possui um método `executarOperacao(Operacao opr)` que recebe um parâmetro do tipo `Operacao` que vai operar o saldo da conta correte (se for debito diminui, se for credito soma). Esta classe também possui o método `getSaldo()` que retorna o saldo do saldo atual.
 1. Crie a classe `Correntista` com os seguintes atributos: `nome` (do tipo String) e `conta` (do tipo `Conta`). O construtor de `Correntista` deve receber seu nome. A classe deve ter 2 métodos: `public String getNome()` e `public Conta getConta().` Estes métodos retornam o nome e a conta respectivamente.
 1. Crie a classe `Banco` como descrito no código abaixo:
-
     ```java
     public class Banco {
         private List<Correntista> correntistas;
@@ -57,5 +57,7 @@ adapitado de [^Takenami]
         }
     }
     ```
+1. Modifique o método `transferir` da classe `Banco` para utilizar uma classe `Transferir` que herde de `Operacao`:
+
 <!-- @include: ../../../bib/bib.md -->
 
