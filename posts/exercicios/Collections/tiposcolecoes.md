@@ -1,6 +1,6 @@
 ---
 icon: study
-date: 2023-07-07 18:30:00.00 -3
+date: 2023-07-18 19:30:00.00 -3
 tag:
   - collection
 category:
