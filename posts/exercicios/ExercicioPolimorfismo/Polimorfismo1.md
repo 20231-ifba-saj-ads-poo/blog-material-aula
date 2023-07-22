@@ -1,6 +1,6 @@
 ---
 icon: study
-date: 2023-06-20 20:00:00.00 -3
+date: 2023-07-22 20:00:00.00 -3
 tag:
   - heranca
 category:
@@ -58,6 +58,10 @@ adapitado de [^Takenami]
     }
     ```
 1. Modifique o método `transferir` da classe `Banco` para utilizar uma classe `Transferir` que herde de `Operacao`:
+
+## Entrega
+
+[link](https://classroom.github.com/a/mHmMBgPi)
 
 <!-- @include: ../../../bib/bib.md -->
 
