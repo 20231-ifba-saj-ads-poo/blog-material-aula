@@ -22,7 +22,7 @@ order: 17
 
 ```plantuml
 
-@startuml
+@startgantt
 [T1] lasts 5 days
 [T2] lasts 3 days
 [T2] starts at [T1]'s end
@@ -43,7 +43,7 @@ order: 17
 [T6] displays on same row as [T2]
 [T6] starts at [T5]'s end
 
-@enduml
+@endgantt
 ```
 
 <figcaption>Exemplo de uso de tempo do processador pelas Threads.</figcaption>
