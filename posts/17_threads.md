@@ -19,7 +19,9 @@ order: 17
 - Alguns programas necessitam fazer várias tarefas que requerem recursos computacionais diversos. Se estas tarefas podem ser feitas independentemente, então é possível usar threads para que o programa não fique limitado a performance dos recursos lentos (I/O).
 
 <figure>
+
 ```plantuml
+
 @startuml
 [T1] lasts 5 days
 [T2] lasts 3 days
@@ -46,6 +48,7 @@ order: 17
 
 <figcaption>Exemplo de uso de tempo do processador pelas Threads.</figcaption>
 </figure>
+
 <br>
 
 <figure>
