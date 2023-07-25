@@ -90,38 +90,19 @@ dormindo --> pronta : fim tempo
 
 ## Herdando a classe Thread
 
-```java
-public class ThreadA extends Thread { 
-    public void run(){ 
-        for(int x=0;x<1000000;x++){ 
-            System.out.println("A: "+x); 
-        } 
-    }
-}
-```
+@[code](./code/threads/MinhaThread.java)
+
 
 ## Implementando a interface Runnable
-```java
-public class ThreadB implements Runnable { 
-    public void run(){ 
-        for(int x=0;x<1000000;x++){ 
-            System.out.println("B: "+x); 
-        } 
-    } 
-}
-```
 
-```java
-public class TesteThread{ 
-    public static void main(String[] args){ 
-        ThreadA ta = new ThreadA(); 
-        Thread tb = new Thread(new ThreadB()); 
-        ta.start(); 
-        tb.start(); 
-    } 
-}
+@[code](./code/threads/MeuRunnable.java)
 
-```
+
+## Executando Threads
+
+@[code](./code/threads/App.java)
+
+
 - Estendendo a classe Thread significa que a subclasse não pode estender qualquer outra classe, enquanto que a classe que implementa a interface Runnable tem essa opção.
 
 ## Synchronized
@@ -138,9 +119,9 @@ public class TesteThread{
 ```java
 //...
 public void metodo() {
- synchronized (this) {
- // conteudo do metodo
- }
+    synchronized (this) {
+    // conteudo do metodo
+    }
 }
 //...
 
