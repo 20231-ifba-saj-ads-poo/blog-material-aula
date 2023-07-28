@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-02-02 19:00:00.00 -3
+date: 2023-07-21 19:00:00.00 -3
 tag:
   - java
   - camadas
@@ -40,18 +40,7 @@ rectangle Apresentação <<tier>>{
     agent "Model(Entity)"
     agent Controller
     agent View 
-  }
-  frame web{
-    frame lit{
-      agent HTML
-      agent CSS
-      agent JavaScript 
-    }
-  }
-  frame mobile{
-    agent Android
-    agent IOS
-  }
+  }  
 }
 
 rectangle Serviço <<tier>>{
